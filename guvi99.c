@@ -2,10 +2,10 @@
 #include<conio.h>
 void main()
 {
-int a,b,c,s=0;
+int a,b,c,r=0;
 clrscr();
 scanf("%d%d%d",&a,&b,&c);
-s=(a*b)%c;
-printf("%d",s);
+r=(a*b)%c;
+printf("%d",r);
 getch();
 }
